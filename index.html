@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>TopGrade Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="bg-white font-sans leading-[1.55] text-black antialiased">
+    <header
+      class="mx-auto flex items-center justify-between gap-5 px-16 py-3.5"
+    >
+      <a href="#"
+        ><img
+          alt="TopGrade Assignment"
+          class="h-[58px] w-auto"
+          src="./images/logo.png"
+      /></a>
+      <nav
+        class="hidden gap-1 rounded-full border border-line p-[5px] text-[14.5px] font-medium lg:flex"
+        aria-label="Main"
+      >
+        <a href="#" class="rounded-full bg-black px-4 py-2 text-white">Home</a>
+        <a href="#" class="rounded-full px-4 py-2 text-muted hover:text-black"
+          >Services</a
+        >
+        <a href="#" class="rounded-full px-4 py-2 text-muted hover:text-black"
+          >Subjects</a
+        >
+        <a href="#" class="rounded-full px-4 py-2 text-muted hover:text-black"
+          >Plagiarism Checking</a
+        >
+        <a href="#" class="rounded-full px-4 py-2 text-muted hover:text-black"
+          >Blog</a
+        >
+
+        <a href="#" class="rounded-full px-4 py-2 text-muted hover:text-black"
+          >Countries</a
+        >
+        <a href="#" class="rounded-full px-4 py-2 text-muted hover:text-black"
+          >About us</a
+        >
+      </nav>
+      <div class="flex gap-2.5">
+        <a
+          href="#"
+          class="inline-flex items-center justify-center gap-2 rounded-full border-[1.5px] border-black font-semibold transition-transform hover:-translate-y-0.5 motion-reduce:transition-none hidden px-[18px] py-2.5 text-sm sm:inline-flex"
+          >Book Now</a
+        >
+        <a
+          href="#"
+          class="inline-flex items-center justify-center gap-2 rounded-full border-[1.5px] border-black font-semibold transition-transform hover:-translate-y-0.5 motion-reduce:transition-none bg-black px-[18px] py-2.5 text-sm text-white"
+          >Get In Touch</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="grid grid-cols-1 items-center gap-11 px-20 pb-[72px] pt-6 lg:grid-cols-[1.1fr_.9fr] lg:gap-14 lg:pt-5"
+      >
+        <div>
+          <h1
+            class="mb-6 mt-[26px] heading text-[clamp(46px,7.2vw,98px)] font-extrabold leading-[.96] tracking-[-0.035em]"
+          >
+            Deadlines<br />met. Grades<br /><span
+              class="text-transparent [-webkit-text-stroke:2px_#000]"
+              >earned.</span
+            >
+          </h1>
+          <p class="mb-[34px] max-w-[50ch] text-lg text-muted">
+            From essays and dissertations to coding labs and research papers,
+            our subject experts give you clear, well-referenced academic support
+            that arrives on time.
+          </p>
+          <div class="mb-[38px] flex flex-wrap gap-3.5">
+            <a
+              href="#"
+              class="inline-flex items-center justify-center gap-2 rounded-full border-[1.5px] border-black font-semibold transition-transform hover:-translate-y-0.5 motion-reduce:transition-none bg-black px-6 py-3.5 text-[15px] text-white"
+              >Get a free consultation</a
+            >
+            <a
+              href="#"
+              class="inline-flex items-center justify-center gap-2 rounded-full border-[1.5px] border-black font-semibold transition-transform hover:-translate-y-0.5 motion-reduce:transition-none px-6 py-3.5 text-[15px]"
+              >Browse services</a
+            >
+          </div>
+        </div>
+
+        <aside
+          id="quote"
+          class="relative overflow-hidden rounded-[32px] border border-line p-5 sm:p-7"
+          aria-label="Get a quotation"
+        >
+          <div
+            class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(0,0,0,0.16)_1px,transparent_0)] bg-size-[22px_22px] opacity-60"
+          ></div>
+
+          <form id="quote-form" class="relative" action="#" novalidate>
+            <div
+              class="mb-[22px] flex flex-wrap items-center justify-between gap-2 text-sm"
+            >
+              <strong class="text-base">Get a quotation</strong>
+              <span class="inline-flex items-center gap-2 opacity-85">
+                <i class="h-2 w-2 rounded-full bg-black"></i>First order: flat
+                40% off
+              </span>
+            </div>
+
+            <div class="grid gap-3.5 sm:grid-cols-2">
+              <label
+                class="block cursor-text rounded-[20px] border border-line bg-white px-5 py-3 transition-colors focus-within:border-black"
+              >
+                <span class="block text-[12.5px] text-muted">Full name</span>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Enter your name"
+                  autocomplete="name"
+                  required
+                  class="block w-full bg-transparent p-0 pt-0.5 font-display text-[17px] font-semibold tracking-[-0.01em] text-black outline-none placeholder:font-normal placeholder:text-[#9a9a9a]"
+                />
+              </label>
+
+              <label
+                class="block cursor-text rounded-[20px] border border-line bg-white px-5 py-3 transition-colors focus-within:border-black"
+              >
+                <span class="block text-[12.5px] text-muted"
+                  >Email address</span
+                >
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  autocomplete="email"
+                  required
+                  class="block w-full bg-transparent p-0 pt-0.5 font-display text-[17px] font-semibold tracking-[-0.01em] text-black outline-none placeholder:font-normal placeholder:text-[#9a9a9a]"
+                />
+              </label>
+
+              <label
+                class="block cursor-text rounded-[20px] border border-line bg-white px-5 py-3 transition-colors focus-within:border-black"
+              >
+                <span class="block text-[12.5px] text-muted"
+                  >Mobile number</span
+                >
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="+91 Phone number"
+                  autocomplete="tel"
+                  required
+                  class="block w-full bg-transparent p-0 pt-0.5 font-display text-[17px] font-semibold tracking-[-0.01em] text-black outline-none placeholder:font-normal placeholder:text-[#9a9a9a]"
+                />
+              </label>
+
+              <label
+                class="block cursor-text rounded-[20px] border border-line bg-white px-5 py-3 transition-colors focus-within:border-black"
+              >
+                <span class="block text-[12.5px] text-muted">Deadline</span>
+                <input
+                  type="date"
+                  name="deadline"
+                  required
+                  class="block w-full bg-transparent p-0 pt-0.5 font-display text-[17px] font-semibold tracking-[-0.01em] text-black outline-none"
+                />
+              </label>
+
+              <label
+                class="block cursor-text rounded-[20px] border border-line bg-white px-5 py-3 transition-colors focus-within:border-black sm:col-span-2"
+              >
+                <span class="block text-[12.5px] text-muted">Upload files</span>
+                <input
+                  type="file"
+                  name="files"
+                  multiple
+                  class="mt-1 block w-full bg-transparent p-0 text-[15px] text-black outline-none file:mr-3 file:rounded-full file:border-0 file:bg-black file:px-3.5 file:py-1.5 file:text-[13px] file:font-semibold file:text-white"
+                />
+              </label>
+
+              <label
+                class="block cursor-text rounded-[20px] border border-line bg-white px-5 py-3 transition-colors focus-within:border-black sm:col-span-2"
+              >
+                <span class="block text-[12.5px] text-muted"
+                  >Additional details</span
+                >
+                <input
+                  type="text"
+                  name="details"
+                  placeholder="Your requirements"
+                  class="block w-full bg-transparent p-0 pt-0.5 font-display text-[17px] font-semibold tracking-[-0.01em] text-black outline-none placeholder:font-normal placeholder:text-[#9a9a9a]"
+                />
+              </label>
+            </div>
+
+            <button
+              type="submit"
+              class="mt-4 inline-flex w-full items-center justify-center rounded-full border-[1.5px] border-black bg-black px-6 py-4 text-[15px] font-semibold text-white transition-transform hover:-translate-y-0.5 motion-reduce:transition-none"
+            >
+              Get a quotation
+            </button>
+
+            <div class="mt-5 flex items-center justify-between gap-4">
+              <p class="max-w-[24ch] text-[13px] opacity-70">
+                Every project gets a dedicated expert and a final quality check.
+              </p>
+              <div
+                class="flex items-baseline gap-2 rounded-[20px] border border-line bg-white px-[18px] py-3.5"
+              >
+                <b
+                  class="font-display text-[34px] font-extrabold leading-none tracking-[-0.03em]"
+                  >24h</b
+                >
+                <span class="text-[13px] text-muted">fastest turnaround</span>
+              </div>
+            </div>
+          </form>
+        </aside>
+      </section>
+
+      <section class="border-t border-line" aria-label="Key numbers">
+        <dl class="flex justify-between gap-5 px-20 py-[30px] lg:grid-cols-4">
+          <div>
+            <dt
+              class="font-display text-[clamp(30px,4vw,46px)] font-extrabold leading-none tracking-[-0.03em]"
+            >
+              500+
+            </dt>
+            <dd class="mt-1.5 text-sm text-muted">Students helped</dd>
+          </div>
+          <div>
+            <dt
+              class="font-display text-[clamp(30px,4vw,46px)] font-extrabold leading-none tracking-[-0.03em]"
+            >
+              98%
+            </dt>
+            <dd class="mt-1.5 text-sm text-muted">Satisfaction</dd>
+          </div>
+          <div>
+            <dt
+              class="font-display text-[clamp(30px,4vw,46px)] font-extrabold leading-none tracking-[-0.03em]"
+            >
+              24h
+            </dt>
+            <dd class="mt-1.5 text-sm text-muted">Turnaround</dd>
+          </div>
+          <div>
+            <dt
+              class="font-display text-[clamp(30px,4vw,46px)] font-extrabold leading-none tracking-[-0.03em]"
+            >
+              50+
+            </dt>
+            <dd class="mt-1.5 text-sm text-muted">Subjects</dd>
+          </div>
+        </dl>
+      </section>
+    </main>
+
+    <!-- Social Sidebar -->
+    <div
+      class="fixed right-0 top-1/2 -translate-y-1/2 z-50 flex flex-col items-end gap-1.5"
+    >
+      <!-- WhatsApp -->
+      <a
+        href="#"
+        target="_blank"
+        class="group flex items-center h-[48px] w-[48px] hover:w-[170px] rounded-l-full bg-black text-white overflow-hidden transition-all duration-300 shadow-lg"
+      >
+        <div class="flex items-center justify-center pl-[17px] text-[20px]">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <span
+          class="whitespace-nowrap pr-4 pl-3 text-[15px] font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+        >
+          Linkedin
+        </span>
+      </a>
+
+      <!-- Instagram -->
+      <a
+        href="#"
+        target="_blank"
+        class="group flex items-center h-[48px] w-[48px] hover:w-[170px] rounded-l-full bg-black text-white overflow-hidden transition-all duration-300 shadow-lg"
+      >
+        <div class="flex items-center justify-center pl-[17px] text-[20.5px]">
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <span
+          class="whitespace-nowrap pr-4 pl-3 text-[15px] font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+        >
+          WhatsApp
+        </span>
+      </a>
+
+      <!-- Facebook -->
+      <a
+        href="#"
+        target="_blank"
+        class="group flex items-center h-[48px] w-[48px] hover:w-[170px] rounded-l-full bg-black text-white overflow-hidden transition-all duration-300 shadow-lg"
+      >
+        <div class="flex items-center justify-center pl-[17px] text-[20px]">
+          <i class="fa-brands fa-facebook-f"></i>
+        </div>
+        <span
+          class="whitespace-nowrap pr-4 pl-4 text-[15px] font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+        >
+          Facebook
+        </span>
+      </a>
+
+      <!-- Instagram -->
+      <a
+        href="#"
+        target="_blank"
+        class="group flex items-center h-[48px] w-[48px] hover:w-[170px] rounded-l-full bg-black text-white overflow-hidden transition-all duration-300 shadow-lg"
+      >
+        <div class="flex items-center justify-center pl-[17px] text-[20px]">
+          <i class="fab fa-instagram"></i>
+        </div>
+        <span
+          class="whitespace-nowrap pr-4 pl-3 text-[15px] font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+        >
+          Instagram
+        </span>
+      </a>
+    </div>
+  </body>
+</html>
